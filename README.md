@@ -1,8 +1,8 @@
-# A Star Path Finder
+## A Star Path Finder
 
-## Introduction
+### Introduction
 The aim of this project is to provide a path-finding library to approximate the shortest path in real-life situations, like- in maps, games where there can be many hindrances. I've considered a 2D Grid having several obstacles genearted randomly and we start from a source cell (top left corner of the grid) to reach towards a goal cell (bottom right corner). This project is made using the _p5.js library._
-## The A* algorithm
+### The A* algorithm
 A* Search algorithm is indeed a well known technique used in path-finding and graph traversals. Consider a square network/grid that has obstacles and we are given a start cell and a target cell. Our job is to reach the target cell (if possible) from the start cell as efficiently possible in the shortest path. 
 
 The A* Search Algorithm, selects the node based on a value 'f', which is equal to the summation of two other values, 'g' and 'h'. At each succession, node/cell with the smallest ‘f’ value is selected, and processed.
@@ -12,7 +12,7 @@ We define ‘g’ and ‘h’ as follows:
 g = the movement cost to move from the start cell to a given square on the network, following the path initiated to get there.
 
 h = the estimated movement cost to move from that given square on the grid to the final target. This is known as the heuristic: a kind of smart guess. The actual distance isn't known until we path is found. There are several ways to calculate this ‘h’.
-## Heuristics
+### Heuristics
 h can be calculated in 2 methods:
 * `Calculate the exact h value (very time consuming).` 
 
