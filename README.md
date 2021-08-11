@@ -1,4 +1,4 @@
-## A Star Path Finder
+## A Star Path Finder - Microsoft Codess Mentorship, 2020
 
 ### Introduction
 The aim of this project is to provide a path-finding library to approximate the shortest path in real-life situations, like- in maps, games where there can be many hindrances. I've considered a 2D Grid having several obstacles genearted randomly and we start from a source cell (top left corner of the grid) to reach towards a goal cell (bottom right corner). This project is made using the _p5.js library._
